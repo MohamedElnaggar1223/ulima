@@ -565,15 +565,14 @@ export default function AdminPage() {
             {userMessages.map((message) => (
               <Card key={message.id} className="p-4">
                 <div className="flex gap-2">
-                  <div className="relative mb-auto px-1 rounded-md text-xs border-gray-400 border text-center">
-                    <span className='a-letter font-grenze'>A</span>
-                    {/* <Image
-                  src='/I.svg'
-                  width={50}
-                  height={50}
-                  alt='I'
-                  className='absolute w-3 h-3 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2'
-                /> */}
+                  <div className="relative w-6 h-6 mb-auto -mt-[3px]">
+                    <Image
+                      src='/U.svg'
+                      width={40}
+                      height={40}
+                      alt='U'
+                      className='absolute w-6 h-6 left-1/2 -translate-x-1/2'
+                    />
                   </div>
                   <div className="flex-1">
                     <p className="text-sm">{message.content}</p>
@@ -898,15 +897,14 @@ export default function AdminPage() {
                   }}
                   className="mt-1"
                 />
-                <div className="relative mb-auto px-1 rounded-md text-xs border-gray-400 border text-center">
-                  <span className='a-letter font-grenze'>A</span>
-                  {/* <Image
-                  src='/I.svg'
-                  width={50}
-                  height={50}
-                  alt='I'
-                  className='absolute w-3 h-3 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2'
-                /> */}
+                <div className="relative w-6 h-6 mb-auto -mt-[3px]">
+                  <Image
+                    src='/U.svg'
+                    width={40}
+                    height={40}
+                    alt='U'
+                    className='absolute w-6 h-6 left-1/2 -translate-x-1/2'
+                  />
                 </div>
                 <div className="flex-1">
                   <p className="text-sm">{message.content}</p>
