@@ -13,6 +13,7 @@ export const metadata: Metadata = {
 }
 
 export default function Home() {
+  return
   return (
     <main className="min-h-screen bg-white px-4 py-8">
       <div className="mx-auto max-w-md lg:max-w-2xl">
